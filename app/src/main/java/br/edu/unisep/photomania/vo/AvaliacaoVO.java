@@ -54,6 +54,8 @@ public class AvaliacaoVO implements Serializable {
         return dt_avaliacao;
     }
 
-
+    public void setDt_avaliacao(Date dt_avaliacao) {
+        this.dt_avaliacao = dt_avaliacao;
+    }
 
 }
