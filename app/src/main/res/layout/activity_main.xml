@@ -17,7 +17,8 @@
         android:layout_alignEnd="@+id/btn_cadastrar"
         android:layout_alignStart="@+id/btn_cadastrar"
         android:layout_alignParentEnd="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:onClick="logar" />
 
     <Button
         android:layout_width="wrap_content"
@@ -28,5 +29,6 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_alignParentEnd="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:onClick="cadastrar" />
 </RelativeLayout>
