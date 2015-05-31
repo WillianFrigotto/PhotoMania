@@ -2,7 +2,12 @@
     <string name="app_name">PhotoMania</string>
 
     <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_menu">Menu</string>
+    <string name="action_timeline">Time-Line</string>
     <string name="btn_cadastrar">CADASTRAR</string>
     <string name="btn_logar">LOGAR</string>
+    <string name="lblNome">Nome</string>
+    <string name="lblSenha">Senha</string>
+    <string name="txtNome">Nome</string>
+    <string name="txtSenha">Senha</string>
 </resources>
