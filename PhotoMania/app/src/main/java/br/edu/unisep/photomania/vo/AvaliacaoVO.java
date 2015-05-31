@@ -4,7 +4,7 @@ import java.io.Serializable;
 import java.util.Date;
 
 /**
- * Created by Willian on 21/05/2015.
+ * Created by Willian Ludvig on 21/05/2015.
  */
 public class AvaliacaoVO implements Serializable {
 
