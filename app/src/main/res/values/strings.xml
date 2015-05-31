@@ -11,4 +11,6 @@
     <string name="txtNome">Nome</string>
     <string name="txtSenha">Senha</string>
     <string name="btnLogar">LOGAR</string>
+    <string name="lblEmail">Email</string>
+    <string name="txtEmail">Email</string>
 </resources>
