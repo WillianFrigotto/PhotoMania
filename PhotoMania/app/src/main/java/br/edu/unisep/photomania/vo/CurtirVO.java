@@ -3,7 +3,7 @@ package br.edu.unisep.photomania.vo;
 import java.io.Serializable;
 
 /**
- * Created by Willian on 21/05/2015.
+ * Created by Willian Ludvig 21/05/2015.
  */
 public class CurtirVO implements Serializable {
 
