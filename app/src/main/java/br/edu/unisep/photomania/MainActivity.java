@@ -26,12 +26,11 @@ public class MainActivity extends Activity {
     }
 
 
-
     public void logar(View v) {
 
-        startActivity(new Intent(getBaseContext(), LoginActivity.class));
+        Intent intente = new Intent(this, LoginActivity.class);
 
-        finish();
+        startActivity(intente);
     }
 
     public void cadastrar(View v) {
