@@ -18,7 +18,9 @@
         android:layout_alignStart="@+id/btn_cadastrar"
         android:layout_alignParentEnd="true"
         android:layout_alignParentStart="true"
-        android:onClick="logar" />
+        android:onClick="logar"
+        android:background="#ff000000"
+        android:textColor="#ffffffff" />
 
     <Button
         android:layout_width="wrap_content"
@@ -30,5 +32,7 @@
         android:layout_centerHorizontal="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentStart="true"
-        android:onClick="cadastrar" />
+        android:onClick="cadastrar"
+        android:textColor="#ffffffff"
+        android:background="#ff000000" />
 </RelativeLayout>

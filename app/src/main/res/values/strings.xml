@@ -1,9 +1,10 @@
 <resources>
     <string name="app_name">PhotoMania</string>
 
-    <string name="hello_world">Hello world!</string>
     <string name="action_menu">Menu</string>
     <string name="action_timeline">Time-Line</string>
+    <string name="action_camera">Câmera</string>
+    <string name="action_topdez">Top-Dez</string>
     <string name="btn_cadastrar">CADASTRAR</string>
     <string name="btn_logar">LOGAR</string>
     <string name="lblNome">Nome</string>
@@ -15,4 +16,6 @@
     <string name="txtEmail">Email</string>
     <string name="title_activity_login">Login Usuario</string>
     <string name="title_activity_cadastrarUsuario">Novo Usuario</string>
+    <string name="btn_escolhi">Escolhi</string>
+    <string name="txt_desc_btn_foto">Que tal nos mostrar quem é você?</string>
 </resources>

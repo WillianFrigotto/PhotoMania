@@ -1,7 +1,9 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
-    <item android:id="@+id/action_menu" android:title="@string/action_menu"
-        android:orderInCategory="100" android:showAsAction="always" />
     <item android:id="@+id/action_timeline" android:title="@string/action_timeline"
         android:orderInCategory="100" android:showAsAction="always" android:icon="@drawable/logotimelinenovo"/>
+    <item android:id="@+id/action_camera" android:title="@string/action_camera"
+        android:orderInCategory="100" android:showAsAction="always" android:icon="@drawable/icon"/>
+    <item android:id="@+id/action_topdez" android:title="@string/action_topdez"
+        android:orderInCategory="100" android:showAsAction="always" android:icon="@drawable/top10"/>
 </menu>
