@@ -13,9 +13,6 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        //Intent intent = getIntent();
-
     }
 
     @Override
@@ -25,19 +22,13 @@ public class MainActivity extends Activity {
         return true;
     }
 
-
     public void logar(View v) {
-
         Intent intente = new Intent(this, LoginActivity.class);
-
         startActivity(intente);
     }
 
     public void cadastrar(View v) {
-
         startActivity(new Intent(getBaseContext(), CadastrarActivity.class));
-
         finish();
     }
-
 }

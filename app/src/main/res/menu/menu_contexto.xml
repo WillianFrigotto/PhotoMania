@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+    android:id="@+id/btn_escolher_fotos"
+    android:title="@string/action_escolher_foto"
+    android:icon="@drawable/pesquisa"
+    />
+    <item
+        android:id="@+id/btn_tirar_fotos"
+        android:title="@string/action_tirar_foto"
+        android:icon="@drawable/icon"
+    />
+    <item
+        android:id="@+id/btn_ok"
+        android:title="OK"
+    />
+</menu>
