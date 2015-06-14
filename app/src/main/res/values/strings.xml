@@ -18,4 +18,7 @@
     <string name="title_activity_cadastrarUsuario">Novo Usuario</string>
     <string name="btn_escolhi">Escolhi</string>
     <string name="txt_desc_btn_foto">Que tal nos mostrar quem é você?</string>
+    <string name="action_escolher_foto"> </string>
+    <string name="action_tirar_foto"></string>
+
 </resources>
