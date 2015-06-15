@@ -5,22 +5,22 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
 /**
- * Created by Willian on 13/06/2015.
+ * Created by Willian on 14/06/2015.
  */
-public class PostagemHelper extends SQLiteOpenHelper {
+public class DicasHelper extends SQLiteOpenHelper {
 
-    public PostagemHelper(Context context, String name, SQLiteDatabase.CursorFactory factory, int version) {
+    public DicasHelper(Context context, String name, SQLiteDatabase.CursorFactory factory, int version) {
         super(context, name, factory, version);
     }
 
     @Override
     public void onCreate(SQLiteDatabase db) {
 
-        String sql = "create table postagem (" +
+        String sql = "create table dicas (" +
                 " _id integer primary key, " +
-                " caminho_postagem text, " +
-                " dt_postagem integer, " +
-                "id_usuario INTEGER NOT NULL," +
+                " id_usuario integer, " +
+                " dt_dica integer, " +
+                " dica text, " +
                 "FOREIGN KEY(id_usuario) REFERENCES usuario(_id)";
 
     }
