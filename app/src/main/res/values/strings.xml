@@ -20,5 +20,6 @@
     <string name="txt_desc_btn_foto">Que tal nos mostrar quem é você?</string>
     <string name="action_escolher_foto"> </string>
     <string name="action_tirar_foto"></string>
+    <string name="txtEmailLogin">Email</string>
 
 </resources>
