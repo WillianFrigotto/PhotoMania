@@ -4,7 +4,7 @@
     <item
     android:id="@+id/btn_escolher_fotos"
     android:title="@string/action_escolher_foto"
-    android:icon="@drawable/pesquisa"
+    android:icon="@drawable/pesquisa2"
     />
     <item
         android:id="@+id/btn_tirar_fotos"

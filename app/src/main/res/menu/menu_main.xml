@@ -6,4 +6,17 @@
         android:orderInCategory="100" android:showAsAction="always" android:icon="@drawable/icon"/>
     <item android:id="@+id/action_topdez" android:title="@string/action_topdez"
         android:orderInCategory="100" android:showAsAction="always" android:icon="@drawable/top10"/>
+
+    <item
+        android:id="@+id/dicas"
+        android:title="Dicas"
+        />
+    <item
+        android:id="@+id/Tirar_foto"
+        android:title="Perfil"
+        />
+    <item
+        android:id="@+id/sair"
+        android:title="Sair"
+        />
 </menu>
