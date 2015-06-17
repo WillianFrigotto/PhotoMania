@@ -24,7 +24,7 @@ public class ComentariosHelper extends SQLiteOpenHelper {
                 " dt_comentario integer, " +
                 "FOREIGN KEY(id_usuario) REFERENCES usuario(_id)" +
                 "FOREIGN KEY(id_postagem) REFERENCES postagem(_id)";
-
+        db.execSQL(sql);
     }
 
     @Override

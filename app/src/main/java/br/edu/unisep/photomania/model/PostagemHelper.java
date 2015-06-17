@@ -22,7 +22,7 @@ public class PostagemHelper extends SQLiteOpenHelper {
                 " dt_postagem integer, " +
                 "id_usuario INTEGER NOT NULL," +
                 "FOREIGN KEY(id_usuario) REFERENCES usuario(_id)";
-
+        db.execSQL(sql);
     }
 
     @Override

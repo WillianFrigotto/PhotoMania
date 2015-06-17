@@ -27,8 +27,10 @@ public class UsuarioDAO {
         valores.put("nome", usuario.getNome());
         valores.put("email", usuario.getEmail());
         valores.put("senha", usuario.getSenha());
-        valores.put("dt_nascimento", String.valueOf(usuario.getDtNascimento()));
-        valores.put("caminho_foto", usuario.getCaminhoFoto());
+       // valores.put("dt_nascimento", String.valueOf(usuario.getDtNascimento()));
+        valores.put("dt_nascimento", 123);
+        //valores.put("caminho_foto", usuario.getCaminhoFoto());
+        valores.put("caminho_foto", "teste");
 
         db.insert("usuario", null, valores);
         db.close();

@@ -22,7 +22,7 @@ public class SeguidorHelper extends SQLiteOpenHelper {
                 " id_seguido integer, " +
                 "FOREIGN KEY(id_usuario) REFERENCES usuario(_id)" +
                 "FOREIGN KEY(id_seguido) REFERENCES usuario(_id)";
-
+        db.execSQL(sql);
     }
 
     @Override

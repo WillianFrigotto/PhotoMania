@@ -22,7 +22,7 @@ public class DicasHelper extends SQLiteOpenHelper {
                 " dt_dica integer, " +
                 " dica text, " +
                 "FOREIGN KEY(id_usuario) REFERENCES usuario(_id)";
-
+        db.execSQL(sql);
     }
 
     @Override

@@ -24,7 +24,7 @@ public class AvaliacaoHelper extends SQLiteOpenHelper {
                 " dt_avaliacaoS integer, " +
                 "FOREIGN KEY(id_usuario) REFERENCES usuario(_id)" +
                 "FOREIGN KEY(id_postagem) REFERENCES postagem(_id)";
-
+        db.execSQL(sql);
     }
 
     @Override

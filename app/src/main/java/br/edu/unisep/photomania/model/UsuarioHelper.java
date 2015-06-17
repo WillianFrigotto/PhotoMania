@@ -24,7 +24,7 @@ public class UsuarioHelper extends SQLiteOpenHelper {
                 " dt_nascimento integer, " +
                 "caminho_foto text" +
                 " )";
-
+        db.execSQL(sql);
     }
 
     @Override

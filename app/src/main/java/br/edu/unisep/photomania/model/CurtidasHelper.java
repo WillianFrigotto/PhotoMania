@@ -22,7 +22,7 @@ public class CurtidasHelper extends SQLiteOpenHelper {
                 " id_postagem integer, " +
                 "FOREIGN KEY(id_usuario) REFERENCES usuario(_id)" +
                 "FOREIGN KEY(id_postagem) REFERENCES postagem(_id)";
-
+        db.execSQL(sql);
     }
 
     @Override
