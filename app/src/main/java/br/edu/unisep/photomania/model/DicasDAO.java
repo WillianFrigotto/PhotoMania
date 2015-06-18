@@ -26,12 +26,12 @@ public class DicasDAO {
         ContentValues valores = new ContentValues();
         valores.put("dica", dica.getDica());
         valores.put("id_usuario", dica.getUsuario().getId());
-        valores.put("id_usuario", postagem.getUsuario().getId());
+        valores.put("categotia", dica.getCategoria());
 
         Date hoje = new Date();
-        valores.put("dt_postagem", hoje.getTime());
+        valores.put("dt_dica", hoje.getTime());
 
-        db.insert("postagem", null, valores);
+        db.insert("dicas", null, valores);
         db.close();
     }
 
@@ -40,12 +40,13 @@ public class DicasDAO {
         SQLiteDatabase db = helper.getReadableDatabase();
 
         String[] colunas = {"_id",
-                "caminho_postagem",
-                "dt_postagem",
-                "id_usuario"};
+                "id_usuario",
+                "dt_dica",
+                "dica",
+                "categoria"};
 
-        Cursor crs = db.query("postagem", colunas, null,
-                null, null, null, "dt_postagem");
+        Cursor crs = db.query("dicas", colunas, null,
+                null, null, null, "dt_dica");
         return crs;
     }
 }

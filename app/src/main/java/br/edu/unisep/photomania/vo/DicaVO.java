@@ -16,6 +16,8 @@ public class DicaVO implements Serializable {
 
     private Date dtDica;
 
+    private Integer categoria;
+
     public Integer getId() {
         return id;
     }
@@ -48,4 +50,11 @@ public class DicaVO implements Serializable {
         this.dtDica = dtDica;
     }
 
+    public Integer getCategoria() {
+        return categoria;
+    }
+
+    public void setCategoria(Integer categoria) {
+        this.categoria = categoria;
+    }
 }
