@@ -7,7 +7,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Large Text"
-        android:id="@+id/txtNomeUsuario"
+        android:id="@+id/lblNomeUsuario"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 
@@ -15,8 +15,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imgPostagem"
-        android:layout_below="@+id/txtNomeUsuario"
+        android:layout_below="@+id/lblNomeUsuario"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="71dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgCurtir"
+        android:layout_alignTop="@+id/imgPostagem"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
