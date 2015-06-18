@@ -21,5 +21,9 @@
     <string name="action_escolher_foto"> </string>
     <string name="action_tirar_foto"></string>
     <string name="txtEmailLogin">Email</string>
+    <string name="lblEfeitos">Efeitos</string>
+    <string name="lblMoldura">Molduras</string>
+    <string name="lblEditores">Editores</string>
+    <string name="lblAlgumasDicas">Algumas dicas...</string>
 
 </resources>
