@@ -6,7 +6,7 @@
     <ImageView
         android:layout_width="@android:dimen/notification_large_icon_height"
         android:layout_height="@android:dimen/notification_large_icon_width"
-        android:id="@+id/img_efeitos"
+        android:id="@+id/img_editores"
         android:background="@drawable/dicasefeitos"
         android:layout_marginStart="104dp"
         android:layout_marginTop="135dp"
@@ -16,11 +16,11 @@
     <ImageView
         android:layout_width="@android:dimen/notification_large_icon_height"
         android:layout_height="@android:dimen/notification_large_icon_width"
-        android:id="@+id/img_molduras"
+        android:id="@+id/img_editores"
         android:background="@drawable/dicasmolduras"
         android:layout_marginTop="40dp"
-        android:layout_below="@+id/img_efeitos"
-        android:layout_alignStart="@+id/img_efeitos" />
+        android:layout_below="@+id/img_editores"
+        android:layout_alignStart="@+id/img_editores" />
 
     <ImageView
         android:layout_width="@android:dimen/notification_large_icon_height"
@@ -28,17 +28,17 @@
         android:id="@+id/img_editores"
         android:background="@drawable/dicaseditores"
         android:layout_marginTop="41dp"
-        android:layout_below="@+id/img_molduras"
-        android:layout_alignStart="@+id/img_molduras" />
+        android:layout_below="@+id/img_editores"
+        android:layout_alignStart="@+id/img_editores" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/lblEfeitos"
-        android:id="@+id/lblEfeitos"
-        android:layout_alignBottom="@+id/img_efeitos"
-        android:layout_toEndOf="@+id/img_efeitos"
+        android:id="@+id/lblEditores"
+        android:layout_alignBottom="@+id/img_editores"
+        android:layout_toEndOf="@+id/img_editores"
         android:layout_marginStart="40dp"
         android:layout_marginBottom="20dp"
         android:background="#ff000000"
@@ -49,9 +49,9 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/lblMoldura"
-        android:id="@+id/lblMolduras"
-        android:layout_alignBottom="@+id/img_molduras"
-        android:layout_alignStart="@+id/lblEfeitos"
+        android:id="@+id/lblEditores"
+        android:layout_alignBottom="@+id/img_editores"
+        android:layout_alignStart="@+id/lblEditores"
         android:layout_marginBottom="20dp"
         android:textColor="#ffffffff"
         android:background="#ff000000" />
@@ -63,7 +63,7 @@
         android:text="@string/lblEditores"
         android:id="@+id/lblEditores"
         android:layout_alignBottom="@+id/img_editores"
-        android:layout_alignStart="@+id/lblMolduras"
+        android:layout_alignStart="@+id/lblEditores"
         android:layout_marginBottom="20dp"
         android:background="#ff000000"
         android:textColor="#ffffffff" />
@@ -78,6 +78,6 @@
         android:background="#ff000000"
         android:layout_marginLeft="10dp"
         android:layout_alignParentTop="true"
-        android:layout_toStartOf="@+id/lblEfeitos"
+        android:layout_toStartOf="@+id/lblEditores"
         android:layout_marginTop="10dp" />
 </RelativeLayout>
