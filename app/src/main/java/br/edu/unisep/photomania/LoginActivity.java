@@ -41,7 +41,7 @@ public class LoginActivity extends Activity {
         Integer retorno = dao.login(usuario.getEmail(), usuario.getSenha());
 
         if (retorno == 1) {
-            Intent intente = new Intent(this, CadastrarActivity.class);
+            Intent intente = new Intent(this, TimeLineActivity.class);
             startActivity(intente);
         } else {
             Intent intente = new Intent(this, LoginActivity.class);
