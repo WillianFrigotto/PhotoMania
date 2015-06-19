@@ -21,7 +21,6 @@ public class DicasHelper extends SQLiteOpenHelper {
                 " id_usuario integer, " +
                 " dt_dica integer, " +
                 " dica text, " +
-                " categotia integer, " +
                 "FOREIGN KEY(id_usuario) REFERENCES usuario(_id)";
         db.execSQL(sql);
     }
