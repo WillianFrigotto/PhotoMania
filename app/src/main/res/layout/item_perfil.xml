@@ -1,35 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
     <TextView
+        android:id="@+id/lblNomeUsuario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-<<<<<<< HEAD
-        android:text="Large Text"
-        android:id="@+id/lblNomeUsuario"
-=======
-        android:text="@string/txtNome"
-        android:id="@+id/txtNomeUsuario"
->>>>>>> origin/master
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:textColor="#ffffffff"
-        android:background="#ff000000" />
+        android:background="#ff000000"
+        android:text="@string/txtNome"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffffff" />
 
     <ImageView
+        android:id="@+id/imgPostagem"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imgPostagem"
         android:layout_below="@+id/lblNomeUsuario"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="71dp" />
 
     <ImageButton
+        android:id="@+id/imgCurtir"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imgCurtir"
         android:layout_alignTop="@+id/imgPostagem"
         android:layout_centerHorizontal="true" />
 

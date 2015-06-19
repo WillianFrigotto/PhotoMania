@@ -26,7 +26,7 @@ public class DicasDAO {
         ContentValues valores = new ContentValues();
         valores.put("dica", dica.getDica());
         valores.put("id_usuario", dica.getUsuario().getId());
-        valores.put("id_usuario", postagem.getUsuario().getId());
+        valores.put("id_usuario", dica.getUsuario().getId());
 
         Date hoje = new Date();
         valores.put("dt_postagem", hoje.getTime());

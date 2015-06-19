@@ -28,6 +28,10 @@
         <activity
             android:name="br.edu.unisep.photomania.CadastrarActivity"
             android:label="@string/title_activity_cadastrarUsuario"></activity>
-    </application>
+
+    <activity
+        android:name="br.edu.unisep.photomania.PostagemActivity"
+        android:label="@string/title_activity_cadastrarPostagem"></activity>
+</application>
 
 </manifest>

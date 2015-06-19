@@ -16,6 +16,8 @@ public class PostagemVO implements Serializable {
 
     private UsuarioVO usuario;
 
+    private String descricao;
+
     public Integer getId() {
         return id;
     }
@@ -46,5 +48,13 @@ public class PostagemVO implements Serializable {
 
     public void setUsuario(UsuarioVO usuario) {
         this.usuario = usuario;
+    }
+
+    public String getDescricao() {
+        return descricao;
+    }
+
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
     }
 }
