@@ -25,5 +25,7 @@
     <string name="lblMoldura">Molduras</string>
     <string name="lblEditores">Editores</string>
     <string name="lblAlgumasDicas">Algumas dicas...</string>
+    <string name="descricao_foto">Aqui vem a descrição da foto...</string>
+    <string name="btn_postar_foto">Postar a foto</string>
 
 </resources>
